@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $headers = 'From: ' . $odesilatel . "\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $headers .= "Content-Type: text/html; charset=utf-8\r\n";    
 
     $today = getdate();
     $datetime = $today['mday'] . '. ' . $today['mon'] . '. ' . $today['year'] . ' ' . $today['hours'] . ':' . $today['minutes'];
@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $emailErr = "(E-mail je ve špatném formátu)";
                 }
             }
-            $message .= '<li><b>' . $key . '</b>: ' . nl2br($val) . ' ' . $emailErr . '</li>';
+            $message .= '<li><b>' . $key . '</b>: ' . nl2br($val) . ' ' . $emailErr . '</li>';            
         }
     }
 

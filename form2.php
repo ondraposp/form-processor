@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
 
 
-        <form action="http://ondrapospisil.cz/index.php" method="post">
+        <form action="http://www.timbre-music.com/scripts/form.php" accept-charset="utf-8" method="post">
             <input type="hidden" name="odesilatel" value="impass@volny.cz">
             <input type="hidden" name="predmet" value="ozivovacvody.cz - objednávka">         
             <input type="hidden" name="ok_url" value="http://www.ozivovacvody.cz/potvrzeni-objednavka.htm">
