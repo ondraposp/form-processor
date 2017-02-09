@@ -1,6 +1,6 @@
 <?php
 
-$mail = 'topfirmy@topfirmy.cz';
+$mail = 'posp.ondra@gmail.com';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
